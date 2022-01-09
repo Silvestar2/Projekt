@@ -1,0 +1,38 @@
+body, html {
+	font-family: 'Times new roman', sans-serif;
+	margin: 0;
+	font-size: 20px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.hero-image {
+	background-image: url("https://www.videonadzor.hr/wp-content/uploads/2019/10/5c7d0afc48d38645636346.jpg?x17949");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+	color: rgb(182, 155, 155);
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(197, 185, 185);
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: rgb(95, 74, 74);
+}
